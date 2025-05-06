@@ -1,0 +1,12 @@
+.venv
+uploads
+audio
+.gitignore
+include
+share
+bin
+lib
+__pycache__
+.idea
+venv
+logs

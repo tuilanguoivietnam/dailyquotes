@@ -1,0 +1,38 @@
+# ... existing code ...
+backend/audio/
+backend/uploads/
+backend/venv/
+backend/__pycache__/
+backend/.git/
+backend/.idea/
+backend/app.log
+backend/logs/
+backend/app/logs/
+.DS_Store
+__pycache__/
+
+backend/.env
+backend/*.json
+backend/*.key
+backend/*.pem
+backend/*.p12
+backend/*.pfx
+
+
+frontend/.env
+frontend/*.keystore
+frontend/*.jks
+
+# 日志文件
+*.log
+logs/
+
+# IDE 文件
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 临时文件
+*.tmp
+*.temp

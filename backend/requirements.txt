@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+python-dotenv
+openai==1.93.0
+motor
+streamlit
+schedule
+python-multipart
+aiofiles
+pymongo
+pydub
+google-api-python-client==2.177.0
+apscheduler
+aiohttp

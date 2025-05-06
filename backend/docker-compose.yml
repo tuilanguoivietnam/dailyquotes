@@ -1,0 +1,44 @@
+version: '3.8'
+
+services:
+  dailymind-backend:
+    container_name: dailymind-backend
+    build: .
+    ports:
+      - "8000:8000"
+      - "8501:8501"
+    depends_on:
+      - dailymind-db
+    environment:
+      - PYTHONUNBUFFERED=1
+      - DOUBAO_APPID=your_app_id
+      - DOUBAO_TOKEN=your_token
+      - DOUBAO_API_KEY=your_api_key
+      - MONGODB_URL=mongodb://dailymind-db:27017/
+      - OPENAI_API_KEY=your_api_key
+      - GOOGLE_SERVICE_ACCOUNT_FILE=/path/to/your/service_account.json
+      - ANDROID_PACKAGE_NAME=com.dailymind.app
+    volumes:
+      - /root/dailymind/backend/uploads:/app/uploads
+      - /root/dailymind/backend/audio:/app/audio
+    networks:
+      - dailymind-network
+
+  dailymind-db:
+    container_name: dailymind-db
+    image: mongo:latest
+    ports:
+      - "28938:27017"
+    restart: always
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=
+      - MONGO_INITDB_ROOT_PASSWORD=
+      - MONGO_INITDB_BIND_IP=0.0.0.0
+    volumes:
+      - /root/dailymind/backend/mongo:/data/db
+    networks:
+        - dailymind-network
+
+networks:
+    dailymind-network:
+        driver: bridge
