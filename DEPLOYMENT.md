@@ -15,8 +15,8 @@
 
 ### 1. Clone the Project
 ```bash
-git clone https://github.com/yourusername/dailymind.git
-cd dailymind
+git clone https://github.com/civisolo/dailyquotes.git
+cd dailyquotes
 ```
 
 ### 2. Backend Setup
@@ -140,9 +140,6 @@ server {
 
 ### Logs
 Backend logs are stored in `backend/logs/`.
-
-### Health Check
-Visit `http://your-api-server.com/api/health` to check service status.
 
 ## Troubleshooting
 
