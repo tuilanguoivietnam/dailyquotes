@@ -1,5 +1,8 @@
 # Daily Quote Apps Suite
 
+<a href="https://www.producthunt.com/products/dailymind-mental-health?embed=true&amp;utm_source=badge-featured&amp;utm_medium=badge&amp;utm_source=badge-dailymind" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=976384&amp;theme=neutral&amp;t=1754562054294" alt="DailyMind - Meditation, Sleep,Mindfulness | Product Hunt" style="width: 128px; height: 27px;" width="128" height="27"/></a>
+
+
 ## Introduction
 
 The Daily Quote Apps Suite is a diverse collection of applications covering various aspects of daily life, including mindfulness, relationships, knowledge, spirituality, and entertainment. Our apps support multiple languages, theme switching, content collection, and more. This suite is designed to enrich users' daily experiences through inspirational quotes, educational content, romantic messages, bedtime stories, spiritual guidance, and relaxation techniques.
@@ -11,6 +14,17 @@ The Daily Quote Apps Suite is a diverse collection of applications covering vari
   <img src="screenshots/0x0ss (3).png" alt="App Screenshot 3" width="200"/>
   <img src="screenshots/0x0ss (5).png" alt="App Screenshot 4" width="200"/>
 </div>
+
+## Download
+
+| App                  | iOS                  | Android             |
+|----------------------|-------------------------------|-----------------------------|
+| DailyMind            | [App Store](https://apps.apple.com/us/app/dailymind-for-a-better-life/id6745580917) | Coming soon                 |
+| BedStory             | Coming soon                   | Coming soon                 |
+| DailySutra           | [App Store](https://apps.apple.com/us/app/dailysutra-cultivate-calm/id6747883782) | Coming soon                 |
+| DailyLove            | [App Store](https://apps.apple.com/us/app/dailylove-love-sparks/id6747162145) | Coming soon                 |
+| DailyFacts           | [App Store](https://apps.apple.com/us/app/dailyfacts-discover-new-info/id6746777421) | Coming soon                 |
+| DailyBible           | [App Store](https://apps.apple.com/us/app/dailybible-gods-word-daily/id6746378496) | [Google Play](https://play.google.com/store/apps/details?id=com.civisolo.dailybible&pli=1) |
 
 ## App Suite
 
@@ -107,17 +121,6 @@ DailyBible provides daily Bible verses and Christian inspiration for spiritual g
 - **Simple, Uplifting UI**: Designed for focused spiritual reflection
 
 DailyBible is ideal for Christians seeking daily spiritual nourishment, those exploring faith, and anyone looking for biblical wisdom and encouragement.
-
-## App Store & Google Play Links
-
-| App                  | App Store Link                | Google Play Link             |
-|----------------------|-------------------------------|-----------------------------|
-| DailyMind            | [App Store](https://apps.apple.com/us/app/dailymind-for-a-better-life/id6745580917) | Coming soon                 |
-| BedStory             | Coming soon                   | Coming soon                 |
-| DailySutra           | [App Store](https://apps.apple.com/us/app/dailysutra-cultivate-calm/id6747883782) | Coming soon                 |
-| DailyLove            | [App Store](https://apps.apple.com/us/app/dailylove-love-sparks/id6747162145) | Coming soon                 |
-| DailyFacts           | [App Store](https://apps.apple.com/us/app/dailyfacts-discover-new-info/id6746777421) | Coming soon                 |
-| DailyBible           | [App Store](https://apps.apple.com/us/app/dailybible-gods-word-daily/id6746378496) | [Google Play](https://play.google.com/store/apps/details?id=com.civisolo.dailybible&pli=1) |
 
 ## Environment Variables
 
