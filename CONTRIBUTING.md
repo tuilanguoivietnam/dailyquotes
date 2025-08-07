@@ -8,8 +8,8 @@ Thank you for your interest in the DailyMind project! We welcome all forms of co
 1. Fork this project on GitHub
 2. Clone your fork locally:
    ```bash
-   git clone https://github.com/yourusername/dailymind.git
-   cd dailymind
+   git clone https://github.com/civisolo/dailyquotes.git
+   cd dailyquotes
    ```
 
 ### 2. Create a Branch
@@ -100,10 +100,9 @@ For new features, please:
 
 ### Project Structure
 ```
-dailymind/
+dailyquotes/
 ├── backend/          # Python FastAPI backend
 ├── frontend/         # Flutter frontend
-├── docs/             # Documentation
 └── README.md         # Project description
 ```
 
