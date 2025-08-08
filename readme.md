@@ -2,6 +2,7 @@
 
 <a href="https://www.producthunt.com/products/dailymind-mental-health?embed=true&amp;utm_source=badge-featured&amp;utm_medium=badge&amp;utm_source=badge-dailymind" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=976384&amp;theme=neutral&amp;t=1754562054294" alt="DailyMind - Meditation, Sleep,Mindfulness | Product Hunt" style="width: 128px; height: 27px;" width="128" height="27"/></a>
 
+[English](README.md) | [简体中文](readme_i18n/README_ZH.md)
 
 ## Introduction
 
@@ -151,6 +152,90 @@ class ApiConfig {
   static const String baseUrl = 'http://localhost:8000';
 }
 ```
+
+## Tech Stack
+- **Frontend**: Flutter 3.x, Dart 3, Riverpod (`flutter_riverpod`), Material 3, FlexColorScheme, Hive local storage
+- **Backend**: FastAPI, Uvicorn, MongoDB (`motor`/`pymongo`), AIOHTTP, APScheduler, Google API Client, OpenAI SDK
+- **Monetization**: Google Mobile Ads, In-App Purchases (StoreKit/Android Billing)
+- **i18n & Notifications**: `easy_localization`, `flutter_localizations`, `flutter_local_notifications`, `timezone`, `flutter_timezone`
+- **Build & Tooling**: `build_runner`, `hive_generator`, `flutter_launcher_icons`, `flutter_lints`
+
+### System Architecture
+
+```mermaid
+graph TB
+    subgraph "Mobile Apps (Flutter)"
+        A[DailyMind] --> D[Riverpod State Management]
+        B[BedStory] --> D
+        C[DailySutra] --> D
+        E[DailyLove] --> D
+        F[DailyFacts] --> D
+        G[DailyBible] --> D
+        D --> H[Hive Local Storage]
+        D --> I[HTTP Client]
+    end
+    
+    subgraph "Backend Services (FastAPI)"
+        J[FastAPI Server] --> K[MongoDB]
+        J --> L[OpenAI API]
+        J --> M[Google APIs]
+        J --> N[APScheduler]
+    end
+    
+    subgraph "External Services"
+        O[App Store/Google Play]
+        P[Google Mobile Ads]
+        Q[Apple/Google Billing]
+    end
+    
+    I --> J
+    A --> O
+    B --> O
+    C --> O
+    D --> P
+    D --> Q
+```
+
+### Data Flow Architecture
+
+```mermaid
+sequenceDiagram
+    participant App as Flutter App
+    participant Riverpod as Riverpod State
+    participant Hive as Local Storage
+    participant API as FastAPI Backend
+    participant DB as MongoDB
+    participant External as External APIs
+    
+    App->>Riverpod: User Action
+    Riverpod->>Hive: Cache Data
+    Riverpod->>API: API Request
+    API->>DB: Database Operation
+    API->>External: External Service Call
+    External-->>API: Response Data
+    API-->>Riverpod: API Response
+    Riverpod-->>App: State Update
+    App->>App: UI Update
+```
+
+### Third-Party Libraries
+- **Frontend (common)**
+  - State & Architecture: `flutter_riverpod`, `get`
+  - Local storage: `hive`, `hive_flutter`, `shared_preferences`
+  - Networking & System: `http`, `connectivity_plus`, `url_launcher`, `package_info_plus`, `path_provider`
+  - Media & Sharing: `audioplayers`, `image_picker`, `screenshot`, `share_plus`
+  - Theming & UI: `flex_color_scheme`, `cupertino_icons`
+  - Notifications & Timezone: `flutter_local_notifications`, `timezone`, `flutter_timezone`
+  - Monetization: `google_mobile_ads`, `in_app_purchase`, `in_app_purchase_storekit` (iOS), `in_app_purchase_android` (some apps)
+  - Permissions: `permission_handler` (some apps)
+- **Frontend (dev)**: `build_runner`, `hive_generator`, `flutter_lints`, `flutter_launcher_icons`
+- **Backend**
+  - Web & Runtime: `fastapi`, `uvicorn`
+  - Config & IO: `python-dotenv`, `aiofiles`, `python-multipart`
+  - AI & External Services: `openai`, `google-api-python-client`
+  - Database: `motor` (async MongoDB), `pymongo`
+  - Scheduling & Async: `apscheduler`, `aiohttp`, `schedule`
+  - Utilities: `streamlit` (internal tooling/visualization)
 
 ## Getting Started
 
